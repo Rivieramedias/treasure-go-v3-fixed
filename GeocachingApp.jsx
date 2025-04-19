@@ -2,25 +2,25 @@ import { useState, useEffect } from 'react';
 
 const checkpoints = [
   {
-    name: "Départ - Place Masséna",
-    lat: 43.6961,
-    lng: 7.2718,
+    name: "Départ - Cathédrale - Vielle Ville",
+    lat: 43.70313,
+    lng: 7.26608,
     radius: 50,
-    clue: "Cherchez l'endroit où le soleil rouge se lève chaque midi."
+    clue: "On commence le test ?"
   },
   {
-    name: "Colline du Château",
-    lat: 43.6953,
-    lng: 7.2817,
+    name: "Homebox",
+    lat: 43.706803,
+    lng: 7.2844832,
     radius: 50,
-    clue: "Entendez-vous le canon ? Il vous indique la voie."
+    clue: "T'as bien arrivé !"
   },
   {
-    name: "Promenade des Anglais",
-    lat: 43.6950,
-    lng: 7.2654,
-    radius: 50,
-    clue: "Là où mer et ciel se confondent, un indice repose sous les palmiers."
+    name: "Place Rossetti",
+    lat: 43.6971832,
+    lng: 7.2762796,
+    radius: 100,
+    clue: "Bienvenue à la casa !"
   }
 ];
 
